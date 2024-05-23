@@ -2,8 +2,13 @@ import React from "react";
 import { PiUsersFill } from "react-icons/pi";
 import { MdThumbUp } from "react-icons/md";
 import { CiMedicalCross } from "react-icons/ci";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const WhyChoose = () => {
+  useGSAP(() => {
+    gsap.from();
+  });
   return (
     <div className="mt-8">
       <div className="p-3 bg-white rounded-lg flex justify-between">

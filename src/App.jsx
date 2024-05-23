@@ -6,7 +6,7 @@ import WhyChoose from "./components/WhyChoose";
 
 function App() {
   return (
-    <div className="bg-slate-100 p-8 font-opensans">
+    <div className="bg-slate-100 p-8 font-opensans overflow-x-hidden">
       <Header />
       <MainSection />
       <Cards />
